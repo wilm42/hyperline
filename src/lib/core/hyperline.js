@@ -13,7 +13,6 @@ class HyperLine extends Component {
 	styles() {
 		return {
 			line: {
-				opacity: 0.3,
 				display: "flex",
 				alignItems: "center",
 				position: "absolute",
@@ -28,6 +27,7 @@ class HyperLine extends Component {
 				margin: "10px 10px 0 10px",
 			},
 			wrapper: {
+				opacity: 0.3,
 				display: "flex",
 				flexShrink: "0",
 				alignItems: "center",
